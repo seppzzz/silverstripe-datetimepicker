@@ -1,0 +1,30 @@
+{
+    "name": "intwebg/silverstripe-datetimepicker",
+    "description": "Add a calendar picker to DatetimeField",
+    "type": "silverstripe-vendormodule",
+    "keywords": ["silverstripe", "datetime", "datetimefield","picker"],
+	  "license": "GNU General Public License v3.0",
+    "authors": [
+    {
+        "name": "Stéphane Guevremont",
+        "email": "stephane@intwebg.com"
+    }],
+    "require": {
+        "silverstripe/cms": "^4",
+        "silverstripe/framework": "^4"
+    },
+    "dependencies": {
+       "jquery": "^2"
+    },
+    "autoload": {
+      "psr-4": {
+          "intwebg\\datetimepicker\\": "src/"
+      }
+    },
+    "extra": {
+      "installer-name": "datetimepicker",
+      "expose": [
+          "client"
+      ]
+    }
+}
