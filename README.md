@@ -9,7 +9,7 @@
 <pre>
 DateField::create('Date')->setHTML5(false)->setDateFormat('yyyy-MM-dd')
 TimeField::create('Time')->setHTML5(false)->setTimeFormat('HH:mm')
-DatetimeField::create('DateTime')->setHTML5(false)->setTimeFormat('yyyy-MM-dd HH:mm:ss')
+DatetimeField::create('DateTime')->setHTML5(false)->setDatetimeFormat('yyyy-MM-dd HH:mm:ss')
 </pre>
 
 <h2>ToDos</h2>
