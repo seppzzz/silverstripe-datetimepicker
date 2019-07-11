@@ -1,5 +1,7 @@
 <h1>intwebg/silverstripe-datetimepicker</h1>
-<p>Add a calendar picker to DatetimeField.</p>
+<p>Add a calendar date and time picker to DatetimeField.</p>
+<p>Add a calendar date picker to DateField.</p>
+<p>Add a time picker to TimeField.</p>
 
 <h2>Installation</h2>
 <p><code>composer require intwebg/silverstripe-datetimepicker</code></p>
