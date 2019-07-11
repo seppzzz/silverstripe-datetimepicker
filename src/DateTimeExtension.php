@@ -5,7 +5,7 @@ use SilverStripe\Core\Extension;
 use SilverStripe\Admin\LeftAndMain;
 use SilverStripe\i18n\i18n;
 
-namespace Intwebg\DateTimeFieldExtension {
+namespace Intwebg\Fields {
 
 	class DateTimeFieldExtension extends Extension {
 
