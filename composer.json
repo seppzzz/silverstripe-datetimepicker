@@ -3,7 +3,7 @@
     "description": "Add a calendar picker to DatetimeField",
     "type": "silverstripe-vendormodule",
     "keywords": ["silverstripe", "datetime", "datetimefield","picker"],
-	  "license": "GNU General Public License v3.0",
+	  "license": "GNU-General-Public-License-v3.0",
     "authors": [
     {
         "name": "Stéphane Guevremont",
