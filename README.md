@@ -5,7 +5,7 @@
 <p><code>composer require intwebg/silverstripe-datetimepicker</code></p>
 <p>Silverstripe 4.4.x</p>
 
-<h2>Basic usage</h2>
+<h2>Basic usage to show the picker in the CMS</h2>
 <pre>
 DateField::create('Date')->setHTML5(false)->setDateFormat('yyyy-MM-dd')
 TimeField::create('Time')->setHTML5(false)->setTimeFormat('HH:mm')
