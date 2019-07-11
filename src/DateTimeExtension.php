@@ -12,12 +12,11 @@ class DateTimeFieldExtension extends Extension {
 
 	public function init() {
 
-		Requirements::css('intwebg/datetimepicker: thirdparty/datetimepicker/build/jquery.datetimepicker.min.css');
-		Requirements::javascript('intwebg/datetimepicker: thirdparty/datetimepicker/build/jquery.datetimepicker.full.min.js');
-		Requirements::javascript('intwebg/datetimepicker: client/javascript/DateTime.js');
+		Requirements::css('intwebg/silverstripe-datetimepicker: thirdparty/datetimepicker/build/jquery.datetimepicker.min.css');
+		Requirements::javascript('intwebg/silverstripe-datetimepicker: thirdparty/datetimepicker/build/jquery.datetimepicker.full.min.js');
+		Requirements::javascript('intwebg/silverstripe-datetimepicker: client/javascript/DateTime.js');
 		Requirements::customScript("
 			jQuery.datetimepicker.setLocale('".substr(i18n::get_locale(), 0, 2)."');
 		");
 	}
 }
-
