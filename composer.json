@@ -24,7 +24,8 @@
     "extra": {
       "installer-name": "datetimepicker",
       "expose": [
-          "client"
+        "client",
+        "thirdparty"
       ]
     }
 }
