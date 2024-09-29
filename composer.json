@@ -10,8 +10,9 @@
         "email": "stephane@intwebg.com"
     }],
     "require": {
-        "silverstripe/cms": "^4",
-        "silverstripe/framework": "^4"
+    "silverstripe/recipe-plugin": "^1.2",
+    "silverstripe/recipe-cms": "^4.0 || ^5.0",  
+    "php": "^7.2 || >=8.0"
     },
     "dependencies": {
        "jquery": "^2"
